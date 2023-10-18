@@ -1,5 +1,5 @@
 import { setting } from "../config"
-import { Countdown } from "./countdown"
+import { Countdown } from "./Countdown"
 import { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
