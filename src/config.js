@@ -241,7 +241,7 @@ export const setting = {
             },
             productName: 'Mountain Pine Bath Oil',
             short_description: 'Made using clean, non-toxic ingredients, our products are designed for everyone.',
-            endDateCountdown: '2024-01-27T00:00:00Z',
+            endDateCountdown: '2025-01-27T00:00:00Z',
             price: '$39,00'
         }
     },
