@@ -19,7 +19,7 @@ export const Carousel = () => {
     }, [current, setting.carousel.data]);
 
     return (
-        <div className="text-black dark:text-white flex flex-col justify-center items-center w-full">
+        <div className="text-white flex flex-col justify-center items-center w-full">
             <div className="grid place-items-center h-screen lg:h-[27.5rem] w-full relative overflow-hidden">
                 {setting.carousel.data && setting.carousel.data.map((item, i) => (
                     <div
