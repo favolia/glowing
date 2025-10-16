@@ -16,15 +16,15 @@ export const Slider = ({ title, data }) => {
     }, []);
 
     return (
-        <div className="mt-16 text-black dark:text-white w-full flex flex-col justify-center items-center">
+        <div className="mt-16 text-white w-full flex flex-col justify-center items-center">
             <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-center gap-y-1 md:gap-y-0">
-                <h1 data-aos="fade-up" className="text-[2.10rem] font-medium ">{title}</h1>
-                <a data-aos="fade-up" href="#" className="text-base text-inherit font-medium flex justify-center items-center">Shop All Products
+                <h1 data-aos="fade-up" className="text-[2.10rem] font-medium">{title}</h1>
+                <a data-aos="fade-up" href="#" className="text-base font-medium flex justify-center items-center">Shop All Products
                     <ArrowSmallRightIcon className="translate-y-[0.15rem] ml-1 h-4 w-4" />
                 </a>
             </div>
 
-            <div className="text-black mt-5 dark:text-white flex flex-col justify-center overflow-hidden items-center w-full">
+            <div className="text-black mt-5 text-white flex flex-col justify-center overflow-hidden items-center w-full">
 
                 <div 
                 style={{ transform: `translate(-${window.innerWidth <= 640 ? current * 109 : innerWidth <= 768 ? current * 60 : current * 11 }%, 0px)`  }}
