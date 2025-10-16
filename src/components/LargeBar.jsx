@@ -89,7 +89,7 @@ export const LargeBar = () => {
             </nav>
             <div className={`fixed ${hideSidebar ? '-z-30' : 'bg-black/50 z-50'} top-0 transition-all duration-500 delay-100 h-screen w-full`}>
                 <aside ref={sidebar} className={`${hideSidebar ? '-translate-x-full' : 'translate-x-0'} z-50 transition-all duration-500 ease-in-out w-72 h-full flex flex-col border-r border-white/20 overflow-hidden`}>
-                    <div className="logo flex w-full h-[15vh] flex-row justify-between items-center text-black dark:text-white px-4 py-5 border-b border-white/20 bg-default-800">
+                    <div className="logo flex w-full h-[15vh] flex-row justify-between items-center text-white px-4 py-5 border-b border-white/20 bg-default-800">
                         <h1 className="text-inherit font-medium text-2xl">GLOWING</h1>
                         <XMarkIcon onClick={() => setHideSidebar(true)} className="h-7 w-7 text-white/60 hover:text-white/90 cursor-pointer" />
                     </div>
